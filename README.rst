@@ -25,6 +25,12 @@ Installation and Playing
     $ javac *.java
     $ java Magnetar
 
+The ``.jar`` (Java ARchive) file of "Magnetar" can be downloaded at https://sourceforge.net/projects/magnetar/ . In many operation systems, you can execute it like any other executable file. If you fail to do that, you can enter a command
+
+::
+
+    $ java -jar Magnetar-0.1.jar 
+
 After you successfully run the game, you can use cursor keys ``↑``, ``→``, ``↓`` and ``←`` to move the magnets, ``Ctrl-N`` to start a new game, ``Ctrl-B`` to restart the game, and ``Ctrl-W`` to quit the game.
 
 Copyright and License

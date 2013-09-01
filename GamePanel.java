@@ -73,7 +73,8 @@ public class GamePanel extends JPanel implements ActionListener {
 		g2.setColor(Color.BLACK);
 		g2.setFont(new Font("Arial", Font.PLAIN, Screen.HELPFONTSIZE));
 
-		g2.drawString("Use cursor keys to move the magnets, until everybody is in the gray region", 3, Screen.HEIGHT-35);		
+		g2.drawString("Use cursor keys to move the magnets, until everybody is in the gray region", 3, Screen.HEIGHT-55);	
+		g2.drawString("Use Ctrl-N to start a new game, Ctrl-B to restart the game, and Ctrl-W to quit the game", 3, Screen.HEIGHT-35);		
 		new FixBox().draw(mArray.getArray(), g2);
 
 		mArray.draw(g2);
